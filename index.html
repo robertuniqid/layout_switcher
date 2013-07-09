@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Content Switcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Hello there :) -->
+  <!-- Script Required Files -->
+  <script src="assets/scripts/jquery-1.7.min.js"></script>
+  <script src="assets/scripts/jquery_ui.js"></script>
+  <script src="assets/scripts/layout_switcher_min.js"></script>
+
+  <!-- Demo Required -->
+  <script src="assets/scripts/bootstrap.min.js"></script>
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#trigger-content-switch').click(function(event){
+        LayoutSwitcher.Trigger('Hello dear user, you can find what you need here', 'The New Content');
+      });
+      $('#trigger-content-switch-second').click(function(event){
+        LayoutSwitcher.Trigger('Hello dear user, you can find what you need here', 'The New Content', function(){
+          alert('You can easily hook up anything here');
+        });
+      });
+    });
+  </script>
+
+  <style type="text/css">
+    body {
+      padding-top: 60px;
+      padding-bottom: 40px;
+    }
+
+    @media (max-width: 960px) {
+      .hero-unit {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="to-replace-switcher-container" class="container">
+  <div class="hero-unit">
+    <h3 class="text-info text-center">This is a basic jQuery Plugin to Switch the current content with another</h3>
+    <h3 class="text-error text-center">
+      Crafted for Developers & People Looking for a change
+    </h3>
+    <h3 class="text-success text-center">
+      Yes it is ! Fully compatible with any device !
+    </h3>
+    <h3 class="text-warning text-center">AJAX Friendly</h3>
+    <h3 class="text-error text-success text-center">See what this script can achieve ! <a target="_blank" href="http://screencast.com/t/GI0bWsXAAd">Video Preview</a></h3>
+
+    <button id="trigger-content-switch" class="btn btn-success" style="width: 200px;margin:0 auto;display: block;">
+      <i class="icon-refresh icon-white"></i> Try the content Switcher
+    </button>
+
+
+    <h3 class="text text-info">How does this work ?</h3>
+    <div class="well-small well">
+      $('#trigger-content-switch').click(function(event){ <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LayoutSwitcher.Trigger('Hello dear user, you can find what you need here', 'The New Content'); <br/>
+      }); <br/>
+    </div>
+
+    <h3 class="text text-info">How do I set this up ? </h3>
+    <div class="well well-small">
+      <p>First of all you need to include jQuery and the LayoutSwitcher File.</p>
+      <p>You can optionally add jQuery UI for the kickass animations</p>
+    </div>
+    <h3 class="text-info">Done, what's next :) ? </h3>
+    <h4 class="text-success">You need to edit within the layout switcher the following files</h4>
+    <div class="well well-small">
+      LayoutSwitcher = { <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ReplacedObjectId : "to-replace-switcher-container", <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="text-error">// Replace this with the id of the content to be replaced</span> <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ObjectID         : "content-switcher-container", <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="text-error">// This will be the switched content id</span> <br/>
+      } <br/>
+    </div>
+    <div class="well well-small">
+      <p class="text-error">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        If you're more experienced and not working with the ids,
+          take a look at the Init function and you'll see how flexible this is, it can work with anything
+      </p>
+    </div>
+    <h3 class="text-info">Cool done, and now ?</h3>
+    <h4 class="text-success">You're all set, start having fun :) !</h4>
+
+    <h3 class="text-info text">Can I hook any actions after display ? </h3>
+    <div class="well well-small">
+      <p class="text-success text">In just a few seconds glance !</p>
+      <div class="well well-small">
+        $('#trigger-content-switch-second').click(function(event){ <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LayoutSwitcher.Trigger('Hello dear user, you can find what you need here', 'The New Content', function(){ <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert('You can easily hook up anything here');<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});<br/>
+        });<br/>
+      </div>
+    </div>
+
+    <button id="trigger-content-switch-second" class="btn btn-success" style="width: 290px;margin:0 auto;display: block;">
+      <i class="icon-refresh icon-white"></i> Try the content Switcher With Event
+    </button>
+
+    <h3 class="text text-info">How many animations do I have available ? </h3>
+    <div class="well well-small">
+      <p class="text-success">Unlimited, this script can work with ANY animations on the web, you can find a few cool ones here : <a target="_blank" href="http://jqueryui.com/effect/">http://jqueryui.com/effect/</a></p>
+    </div>
+
+    <h3 class="text-info text">Is it easy to change the animations ?</h3>
+    <div class="well well-small">
+      <p>You can easily change them, just by copy-paste from the jQuery UI website</p>
+      <img src="http://content.screencast.com/users/RusuAndreiRobert/folders/Jing/media/a0c76172-0ad1-44c4-a9ab-ae509eb9021f/00000209.png"/>
+    </div>
+
+    <h3 class="text-info text">Can I get the switched content Easily ? </h3>
+    <h4 class="text-success">You can get the jQuery object like this : </h4>
+    <div class="well well-small">
+      LayoutSwitcher.GetObject();
+    </div>
+    <h4 class="text-success">And with the jquery object you can easily get the content</h4>
+    <div class="well well-small">
+      LayoutSwitcher.GetObject().html();
+    </div>
+
+
+    <h2 class="text-error text-center">Not amazed yet ?</h2>
+    <h3 class="text-error text-success">See what this script can achieve ! <a target="_blank" href="http://screencast.com/t/GI0bWsXAAd">Video Preview</a></h3>
+  </div>
+
+  <footer>
+    <p>All rights reserved &copy; Easy Development 2013</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
