@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b767b452-5b74-4c95-9df8-cb07a4154350" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/layout_switcher.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/layout_switcher_min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scripts/layout_switcher_not_minified.js" afterPath="$PROJECT_DIR$/assets/scripts/layout_switcher.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/layout_switcher.js" afterPath="$PROJECT_DIR$/assets/scripts/layout_switcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="layout_switcher.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b767b452-5b74-4c95-9df8-cb07a4154350" time="1376985491788" ignored="false" />
+    <file path="/Dummy.txt" changelist="b767b452-5b74-4c95-9df8-cb07a4154350" time="1376985664216" ignored="false" />
+    <file path="/index.html" changelist="b767b452-5b74-4c95-9df8-cb07a4154350" time="1376986247594" ignored="false" />
+    <file path="/layout_switcher.js" changelist="b767b452-5b74-4c95-9df8-cb07a4154350" time="1376986316981" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,27 +30,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout_switcher.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout_switcher.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scripts/layout_switcher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="99" selection-start="636" selection-end="648" vertical-scroll-proportion="0.48312885">
+            <state line="79" column="52" selection-start="2880" selection-end="2880" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1376985565000" expanded="true" signature="387:399" placeholder="..." />
-                <marker date="1376985565000" expanded="true" signature="991:1003" placeholder="..." />
-                <marker date="1376985565000" expanded="true" signature="1046:1057" placeholder="..." />
-                <marker date="1376985565000" expanded="true" signature="1147:1172" placeholder="..." />
-                <marker date="1376985565000" expanded="true" signature="1471:1496" placeholder="..." />
-                <marker date="1376985565000" expanded="true" signature="1544:1574" placeholder="..." />
-                <marker date="1376985565000" expanded="true" signature="1670:1681" placeholder="..." />
+                <marker date="1376986317000" expanded="true" signature="387:399" placeholder="..." />
+                <marker date="1376986317000" expanded="true" signature="991:1003" placeholder="..." />
+                <marker date="1376986317000" expanded="true" signature="1046:1057" placeholder="..." />
+                <marker date="1376986317000" expanded="true" signature="1147:1172" placeholder="..." />
+                <marker date="1376986317000" expanded="true" signature="1471:1496" placeholder="..." />
+                <marker date="1376986317000" expanded="true" signature="1544:1574" placeholder="..." />
+                <marker date="1376986317000" expanded="true" signature="1670:1681" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="38" selection-start="456" selection-end="456" vertical-scroll-proportion="-8.125">
+            <state line="54" column="0" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.2388535">
               <folding />
             </state>
           </provider>
@@ -78,8 +74,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/scripts/layout_switcher.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -173,8 +169,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -192,23 +188,23 @@
     <frame x="0" y="22" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25322813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -272,25 +268,47 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/scripts/layout_switcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1376986317000" expanded="true" signature="387:399" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="991:1003" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="1046:1057" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="1147:1172" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="1471:1496" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="1544:1574" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="1670:1681" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="456" selection-end="456" vertical-scroll-proportion="-8.125">
+        <state line="13" column="38" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scripts/layout_switcher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="99" selection-start="636" selection-end="648" vertical-scroll-proportion="0.48312885">
+        <state line="79" column="52" selection-start="2880" selection-end="2880" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1376985565000" expanded="true" signature="387:399" placeholder="..." />
-            <marker date="1376985565000" expanded="true" signature="991:1003" placeholder="..." />
-            <marker date="1376985565000" expanded="true" signature="1046:1057" placeholder="..." />
-            <marker date="1376985565000" expanded="true" signature="1147:1172" placeholder="..." />
-            <marker date="1376985565000" expanded="true" signature="1471:1496" placeholder="..." />
-            <marker date="1376985565000" expanded="true" signature="1544:1574" placeholder="..." />
-            <marker date="1376985565000" expanded="true" signature="1670:1681" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="387:399" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="991:1003" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="1046:1057" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="1147:1172" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="1471:1496" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="1544:1574" placeholder="..." />
+            <marker date="1376986317000" expanded="true" signature="1670:1681" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.2388535">
+          <folding />
         </state>
       </provider>
     </entry>

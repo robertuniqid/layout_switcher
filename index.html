@@ -20,6 +20,8 @@
 
   <script type="text/javascript">
     $(document).ready(function(){
+      LayoutSwitcher.Init('#to-replace-switcher-container');
+
       $('#trigger-content-switch').click(function(event){
         LayoutSwitcher.Trigger('Hello dear user, you can find what you need here', 'The New Content');
       });
@@ -50,14 +52,6 @@
 <div id="to-replace-switcher-container" class="container">
   <div class="hero-unit">
     <h3 class="text-info text-center">This is a basic jQuery Plugin to Switch the current content with another</h3>
-    <h3 class="text-error text-center">
-      Crafted for Developers & People Looking for a change
-    </h3>
-    <h3 class="text-success text-center">
-      Yes it is ! Fully compatible with any device !
-    </h3>
-    <h3 class="text-warning text-center">AJAX Friendly</h3>
-    <h3 class="text-error text-success text-center">See what this script can achieve ! <a target="_blank" href="http://screencast.com/t/GI0bWsXAAd">Video Preview</a></h3>
 
     <button id="trigger-content-switch" class="btn btn-success" style="width: 200px;margin:0 auto;display: block;">
       <i class="icon-refresh icon-white"></i> Try the content Switcher

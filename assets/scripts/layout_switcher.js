@@ -77,8 +77,7 @@ LayoutSwitcher = {
     this.SwitcherObject.html(html);
     this.SwitcherObject.find('*[data-dismiss="modal"], *[data-dismiss="switcher"]').bind('click', function(event){
       event.preventDefault();
-
-      if($(this).hasAttr('href'))
+      if(typeof $(this).attr('href') !== "undefined")
         window.location = $(this).attr('href');
 
       objectInstance.Close();
