@@ -7,7 +7,6 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <!-- Hello there :) -->
   <!-- Script Required Files -->
   <script src="assets/scripts/jquery-1.7.min.js"></script>
   <script src="assets/scripts/jquery_ui.js"></script>
@@ -23,10 +22,10 @@
       LayoutSwitcher.Init('#to-replace-switcher-container');
 
       $('#trigger-content-switch').click(function(event){
-        LayoutSwitcher.Trigger('Hello dear user, you can find what you need here', 'The New Content');
+        LayoutSwitcher.Trigger('Hello user, you can find what you need here', 'The New Content');
       });
       $('#trigger-content-switch-second').click(function(event){
-        LayoutSwitcher.Trigger('Hello dear user, you can find what you need here', 'The New Content', function(){
+        LayoutSwitcher.Trigger('Hello user, you can find what you need here', 'The New Content', function(){
           alert('You can easily hook up anything here');
         });
       });
@@ -126,10 +125,6 @@
     <div class="well well-small">
       LayoutSwitcher.GetObject().html();
     </div>
-
-
-    <h2 class="text-error text-center">Not amazed yet ?</h2>
-    <h3 class="text-error text-success">See what this script can achieve ! <a target="_blank" href="http://screencast.com/t/GI0bWsXAAd">Video Preview</a></h3>
   </div>
 
   <footer>
